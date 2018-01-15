@@ -6,7 +6,7 @@
 #
 # Program:
 #   Install yiimp on Ubuntu 16.04 running Nginx, MariaDB, and php7.x
-# BTC Donation: 1HUruZMcSben39E27cyLwsTrk6bbWZs3po
+# 
 # 
 ################################################################################
 output() {
@@ -508,6 +508,9 @@ define('"'"'EXCH_YOBIT_SECRET'"'"', '"'"''"'"');
      sudo mysql --defaults-group-suffix=host1 --force < 2017-05-accounts_case_swaptime.sql
      sudo mysql --defaults-group-suffix=host1 --force < 2017-06-payouts_coinid_memo.sql
      sudo mysql --defaults-group-suffix=host1 --force < 2017-09-notifications.sql
+     sudo mysql --defaults-group-suffix=host1 --force < 2017-10-bookmarks.sql
+     sudo mysql --defaults-group-suffix=host1 --force < 2017-11-segwit.sql
+     sudo mysql --defaults-group-suffix=host1 --force < 2018-01-stratums_ports.sql        
      
     clear
     output "Generating a basic serverconfig.php"
