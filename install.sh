@@ -514,7 +514,7 @@ define('"'"'EXCH_YOBIT_SECRET'"'"', '"'"''"'"');
     # make config file
 echo '
 <?php
-ini_set('"'"'date.timezone'"'"', '"'"'UTC'"'"');
+ini_set('"'"'date.timezone'"'"', '"'"'America/New_York'"'"');
 define('"'"'YAAMP_LOGS'"'"', '"'"'/var/log'"'"');
 define('"'"'YAAMP_HTDOCS'"'"', '"'"'/var/web'"'"');
 define('"'"'YAAMP_BIN'"'"', '"'"'/var/bin'"'"');
@@ -561,9 +561,9 @@ define('"'"'EXCH_COINMARKETS_USER'"'"', '"'"''"'"');
 define('"'"'EXCH_COINMARKETS_PIN'"'"', '"'"''"'"');
 define('"'"'EXCH_CREX24_KEY'"'"', '"'"''"'"');
 define('"'"'EXCH_BINANCE_KEY'"'"', '"'"''"'"');
-define('"'"'EXCH_BITSTAMP_ID'"'"','');
-define('"'"'EXCH_BITSTAMP_KEY'"'"','');
-define('"'"'EXCH_HITBTC_KEY'"'"','');
+define('"'"'EXCH_BITSTAMP_ID'"'"', '"'"''"'"');
+define('"'"'EXCH_BITSTAMP_KEY'"'"', '"'"''"'"');
+define('"'"'EXCH_HITBTC_KEY'"'"', '"'"''"'"');
 define('"'"'EXCH_KRAKEN_KEY'"'"', '"'"''"'"');
 define('"'"'EXCH_KUCOIN_KEY'"'"', '"'"''"'"');
 define('"'"'EXCH_LIVECOIN_KEY'"'"', '"'"''"'"');
