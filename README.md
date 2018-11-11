@@ -16,8 +16,7 @@ After you add the missing information to those files then run:
 ./loop2.sh
 ./block.sh
 
-curl -Lo install.sh https://raw.githubusercontent.com/bubasik/yiimp-install-script-on-ubuntu/master/install.sh
-bash install.sh
+`curl -Lo install.sh https://raw.githubusercontent.com/gohashme/yiimp-install-script-on-ubuntu/master/install.sh bash install.sh`
 
 You will be prompted for email, FDQN, and time zone. You onkly get one shot to enter this information correctly!
 
